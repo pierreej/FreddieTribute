@@ -1,5 +1,5 @@
 <h1><a href=""><strong>Tribute Page for Freddie Mercuryr</strong></a></h1>
-<img src="">
+<img src="https://imgur.com/a/ljSg3T2">
 <p>A Tribute Page for Freddie Mercury </p>
 <h3>Technologies used: </h3>
 <ul>
