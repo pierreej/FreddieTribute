@@ -21,5 +21,3 @@ HINT: You must give your element an attribute of target and set it to _blank in 
   <li>As a user, I want the img element to be centered within its parent element.</li>
   <li>As a user, I want to read a post, article, or story about the person with at least 2 headings in h1 ... h6, and paragraphs in p.</li>
 </ul>
-
-<h5>Hope you like it!</h5>
