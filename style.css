@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Bebas Neue;
+    scroll-behavior: smooth;
+    background-color: black;
+}
+.container{
+    display: flex;
+}
+nav {
+    background: white;
+    position: sticky;
+    height: 80px;
+    width: 100%;
+    margin: 0 0 20px;
+}
+label.title{
+    color: black;
+    font-size: 40px;
+    line-height: 80px;
+    padding: 0 50px; 
+    font-weight: bold; 
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: auto;
+}
+nav ul li a{
+    color: black;
+    font-size: 25px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background: rgb(214, 214, 214);
+    transition: .5s;
+}
+#micimg{
+    max-width: 10%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+#intro{
+    text-align: center;
+    margin-bottom: 300px;
+}
+h1{
+    color: white;
+    font-size: 70px;
+}
+.wrapper{
+    margin: 150px auto;
+    width: 70%;
+}
+#image{
+    float: left;
+}
+.text-box{
+    color: white;
+}
+.text-box h2 {
+    font-size: 260px;
+    line-height: 0.9;
+}
+.text-box p{
+    font-size: 50px;
+}
+.wrapper2{
+    margin: 150px auto;
+    width: 70%;
+}
+#freddieabout{
+    max-width: 320px;
+    float: left;
+    margin-right: 15px;
+}
+.text-box2{
+    color: white;
+}
+.text-box2 h2 {
+    font-size: 84px;
+    line-height: 0.9;
+}
+#tribute-link{
+    font-size: 48px;
+    color: white;
+}
+.text-box2 h3{
+    font-size: 48px;
+}
+.text-box2 p{
+    font-family: Roboto;
+    font-size: 32px;
+}
+#galler h1{
+    text-align: center;
+}
+.wrapper3{
+    min-height: 50vh;
+    display: grid;
+    place-items: center;
+    padding-inline: 1.25rem;
+    background: black;
+    color: #fff;
+}
+
+.slider{
+    display: flex;
+    gap: .5rem;
+    width: min(100%, 1200px);
+}
+
+.card{
+    flex: 1;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 0.625rem;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+    position: relative;
+}
+
+.card img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.card .title{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0) );
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+.card .title h2{
+    font-size: 2rem;
+    white-space: nowrap;
+}
+
+.card .title p{
+    font-size: 1.5rem;
+}
+
+.active{
+    flex-grow: 5;
+}
+
+.active .title{
+    visibility: visible;
+    opacity: 1;
+    color: white;
+}
