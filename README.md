@@ -1,5 +1,5 @@
-<h1><a href=""><strong>Tribute Page for Freddie Mercuryr</strong></a></h1>
-<img src="https://imgur.com/AZ5Rjjr">
+<strong>Tribute Page for Freddie Mercuryr</strong>
+<img src="[https://imgur.com/AZ5Rjjr](https://github.com/scpejj/FreddieTribute/blob/main/assets/Screenshot.png?raw=true)">
 <p>A Tribute Page for Freddie Mercury </p>
 <h3>Technologies used: </h3>
 <ul>
